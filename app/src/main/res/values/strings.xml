@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Transportadmin</string>
+    <string name="bus">Aamec</string>
+    <string name="transportadmin">Transport Admin</string>
+    <string name="login">Login</string>
+    <string name="signup">signup</string>
+    <string name="create">Create</string>
+    <string name="name">name</string>
+    <string name="register">Don\'t have an account!</string>
+
+    <string name="splashimg">splashimg</string>
+    <string name="homevector">home</string>
+    <string name="addpersion">Add Detail</string>
+    <string name="view">View</string>
+    <string name="lable">Track Me</string>
+
+    <string name="stulogin">stulogin</string>
+    <string name="mail">mail</string>
+    <string name="password">Password</string>
+    <string name="conpassword">confirm Password</string>
+    <string name="string_mailhint">Login ID</string>
+    <string name="title_activity_adminhome">adminhome</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Add persion</string>
+    <string name="title_notifications">View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is Home</string>
+    <string name="bus1">BUS</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="transportname">Transport Name</string>
+    <string name="phno">Phno</string>
+    <string name="transport_id">Transport ID</string>
+    <string name="generate_id">Generate ID</string>
+    <string name="add_vihicle">Add Vehicle Details </string>
+    <string name="vehicle_name">Vehicle Name</string>
+    <string name="vehicle_rto_number">Vehicle Registration Number</string>
+    <string name="_1_0">1–0</string>
+    <string name="a_z">A-Z</string>
+    <string name="save">save</string>
+    <string name="otp">OTP</string>
+    <string name="send_otp">send OTP</string>
+    <string name="verify_otp">Verify otp</string>
+    <string name="viewcard">Driver</string>
+    <string name="addcard">Details</string>
+    <string name="cardview1">cardview</string>
+    <string name="cardview2">cardview</string>
+    <string name="qr_code">qr</string>
+    <string name="generate_qr">Generate QR</string>
+    <string name="scantext">To Scan and Add the Driver</string>
+    <string name="title_activity_fragment_home">fragment_home</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="button">Button</string>
+    <string name="total_number_of_added_drivers">Registered Drivers :</string>
+    <string name="view_on_map">View on Map</string>
+    <string name="routes">Routes</string>
+    <string name="registred_vehicles">Registred vehicles</string>
+    <string name="from">From</string>
+    <string name="to">TO</string>
+    <string name="add">Add</string>
+    <string name="up_time">Up Time</string>
+    <string name="down_time">Down Time</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="registered_vehicle">Registered Vehicle :</string>
+    <string name="routes_assigned">Registered Routes :</string>
+    <string name="registred_drivers">Registred Drivers</string>
+    <string name="logout">Logout</string>
+    <string name="previous">pre</string>
+    <string name="next">next</string>
+    <string name="hello_first_fragment">first</string>
+    <string name="second_fragment_label">secondfrag</string>
+    <string name="first_fragment_label">firstfrag</string>
+    <string name="about">About :</string>
+
+    <string name="about_text">This project is developed by Sabarinathan C Mca final year \"820420622035\". This project is helping to commercialize vehicle transport services and combined drivers and customers.</string>
+    <string name="calendar">calendar</string>
+
+
+</resources>

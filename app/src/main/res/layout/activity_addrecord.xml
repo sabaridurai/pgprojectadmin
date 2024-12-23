@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activitybg"
+    tools:context=".addrecord">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:backgroundTint="#0000"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#F8F2F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="20dp"
+            android:paddingRight="16dp">
+
+            <EditText
+                android:id="@+id/transportname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/transportname"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#616161" />
+
+            <EditText
+                android:id="@+id/ownername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/owner_name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#616161" />
+
+            <EditText
+                android:id="@+id/phno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/phno"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/mail"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/transportid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/transport_id"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#757575"
+                tools:ignore="Deprecated" />
+
+            <Button
+                android:id="@+id/idgrnerate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnbg"
+                android:padding="15dp"
+                android:text="@string/generate_id"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/addvehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnbgyellow"
+                android:padding="10dp"
+
+                android:text="@string/add_vihicle" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/viwe"
+        android:layout_width="391dp"
+        android:layout_height="233dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/vehiclename"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/textfieldbg"
+                android:ems="10"
+                android:hint="@string/vehicle_name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:text="@string/vehicle_rto_number"
+                android:textColor="#009688"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/regno1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textfieldbg"
+                    android:ems="10"
+                    android:hint="@string/a_z"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+
+                <EditText
+                    android:id="@+id/regno2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textfieldbg"
+                    android:ems="10"
+                    android:hint="@string/_1_0"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+                <EditText
+                    android:id="@+id/regno3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textfieldbg"
+                    android:ems="10"
+                    android:hint="@string/a_z"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <EditText
+                    android:id="@+id/regno4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:background="@drawable/textfieldbg"
+                    android:ems="10"
+                    android:hint="@string/_1_0"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/savebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/btnbgyellow"
+                    android:text="@string/save" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
